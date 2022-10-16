@@ -1,0 +1,20 @@
+<DOCTYPE!>
+  <head>
+    <title>
+      <p>
+        "canvas"
+      </p>
+    </title>
+  </head>
+  <body>
+    <div>
+      <canvas id="myCanvas" width="200" height="100" style="border:1px solid #8534cb;"></canvas>
+    </div>
+    <script>
+      var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+    </script>
+  </body>
